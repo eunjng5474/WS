@@ -24,3 +24,25 @@ num2 = int(input())
 print(num1 + num2)
 ```
 
+
+### 3. 변수를 사용해서 데이터 출력하기
+두 변수 greeting, month를 사용해서 Hello July 를 출력하는 프로그램을 작성하시오.
+```python
+# 변수 greeting, month 
+greeting = 'Hello'
+month = 'July'
+# f-strings 통해서 `Hello July` 출력
+print(f'{greeting} {month}')
+```
+
+
+
+### 4. 문자형의 입력과 출력
+입력 받은 문자를 출력하는 프로그램을 작성하시오.
+(힌트 : `input()` 함수를 활용하여 데이터를 입력받을 수 있다.)
+
+```python
+# 입력 받은 문자를 hello로 설정하고 출력
+hello = input()
+print(f'{hello}')
+```
