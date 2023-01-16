@@ -14,3 +14,13 @@ print('It\'s SSAFY 9')
 
 ### 2. 숫자 print
 `458345 + 623576` 를 계산하여 출력하는 프로그램을 작성하시오.
+```python
+# 바로 숫자값으로 입력
+print(458345 + 623576)
+
+# str으로 입력 받고 int로 변경
+num1 = int(input())
+num2 = int(input())
+print(num1 + num2)
+```
+
