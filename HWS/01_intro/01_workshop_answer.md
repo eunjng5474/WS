@@ -50,6 +50,7 @@ print(answer) # `Hello July`
 
 ```python
 # 입력 받은 문자를 hello로 설정하고 출력
-hello = input()
-print(f'{hello}')
+hello = input() # 'Hello! SSAFY 9'
+print(hello) # 'Hello! SSAFY 9'
+print(f'{hello}') # 'Hello! SSAFY 9'
 ```
