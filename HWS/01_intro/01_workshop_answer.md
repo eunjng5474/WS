@@ -16,13 +16,16 @@ print('It\'s SSAFY 9')
 `458345 + 623576` 를 계산하여 출력하는 프로그램을 작성하시오.
 ```python
 # 바로 숫자값으로 입력
-print(458345 + 623576)
+print(458345 + 623576) # 1081921
+
+answer = 458345 + 623576
+print(answer) # 1081921
 
 # str으로 입력 받고 int로 변경
-num1 = int(input())
-num2 = int(input())
-print(num1 + num2)
-```
+num1 = int(input()) # 458345
+num2 = int(input()) # 623576
+print(num1 + num2) # 1081921
+``` 
 
 
 ### 3. 변수를 사용해서 데이터 출력하기
@@ -31,9 +34,13 @@ print(num1 + num2)
 # 변수 greeting, month 
 greeting = 'Hello'
 month = 'July'
+print(greeting, month) # `Hello July`
 # f-strings 통해서 `Hello July` 출력
-print(f'{greeting} {month}')
-```
+print(f'{greeting} {month}') # `Hello July`
+# 'hello' + ' ' + 'July'
+answer = greeting + ' ' + month
+print(answer) # `Hello July`
+``` 
 
 
 
