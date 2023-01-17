@@ -18,10 +18,10 @@
 ```
 
 ```python
-# input 함수의 실행 결과를 num1에 할당한다.
 num1 = int(input()) # 6374
 num2 = int(input()) # 8729 
 print(num1 + num2)  # 15103
+print(int(num1) + int(num2))
 ```
 
 ### Dictionary를 활용하여 평균 구하기
