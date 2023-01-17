@@ -48,8 +48,10 @@ menu = {'김치찌개': 10000, '라면': 20000}
 result = 0
 for some_value in menu:
   print(menu[some_value]) # 이렇게 출력만 하고 사라지면 안 됨. 저장해야함
-  dust = menu[some_value]
+  # dust = menu[some_value]
   answer = result + menu[some_value]
+  count = count + 1
+print(result//count)
 
 # menu[10000] 으로는 key값 찾을 수 없음. 변할 수 있는 값이기 때문
 ```
